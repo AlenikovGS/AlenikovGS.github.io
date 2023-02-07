@@ -1,0 +1,105 @@
+body {
+    font-family: "PT Sans", "Arial", sans-serif;
+}
+/*header*/
+.page-header {
+    position: relative;
+background-image: url("header_background.jpg");
+background-color: cornflowerblue;
+background-size: 100% 100%;
+box-shadow: 0 0 5px 0 #333333;
+border-radius: 10px;
+min-height: 155px;
+}
+h1 {
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding-right: 10px;
+    color: white;
+}
+.logo {
+    position: absolute;
+  padding: 5px;
+}
+.form_VUZ_button {
+    position: absolute;
+    top: 50%;
+    left: 160px;
+    transform: translate(0, -50%);
+}
+.VUZ_button {
+    border-radius: 10px;
+    font-size: large;
+    background-color:steelblue;
+    color: white;
+    padding: 5px;
+    border-color:rgb(38, 42, 59);
+    box-shadow: 0 0 5px 0 #333333;
+}
+/*main*/
+main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+img:not(.NVSU_logo) {
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 #333333;
+}
+
+h2 {
+    margin: 0px;
+}
+p {
+   text-align: justify; 
+}
+article {   
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 #333333;
+    border: 4px solid rgb(34, 70, 112);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 600px;
+    padding: 10px; 
+}
+article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+aside {
+    float: left;
+    width: 45%;
+}
+section {
+    float: right;
+    width: 55%;
+}
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+.block {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+/*footer*/
+.page-footer {
+    position: relative;
+    background-color: rgb(34, 70, 112);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 #333333;
+    margin-bottom: 5px;
+}
+li {
+    text-align: center;
+    list-style-type: none; /* Убираем маркеры */
+    color: white;
+    margin: 5px;
+   }
+ul {
+    padding: 20px;
+}
